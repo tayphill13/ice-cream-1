@@ -1,7 +1,7 @@
 $(document).ready(function(){
-  alert("it works");
   const flavors = ["bubble gum", "chocolate chips", "strawberry"];
   flavors.forEach(function(flavor){
-    $("ul").append('li').text(flavor);
+    console.log(flavor);
+    $("ul").append("<li>" + flavor + "</li>");
   });
 });
